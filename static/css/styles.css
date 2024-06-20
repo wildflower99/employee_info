@@ -161,6 +161,6 @@ input[name="dip"],
 }
 
 input[type="checkbox" i] element.style {
-    margin: 15px 15px 15px;
+    margin: 10px 10px 10px 40px;
     padding: 23px;
 }
