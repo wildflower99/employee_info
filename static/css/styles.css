@@ -1,0 +1,166 @@
+/* General Styles */
+body {
+    font-family: "candara light";
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://i.pinimg.com/originals/61/87/e9/6187e9226969b30607c22591376850b7.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+h1{
+    font-family:  "candara light";
+    font-size: 3em;
+    text-shadow: 0.01px 0.1px 0.1px rgb(164, 180, 163);
+    margin: 10px 0;
+    text-align: center;
+    color: #ffffff;
+}
+/* Form Container */
+#formContainer {
+    margin: 20px auto;
+    width: 50%;    
+    padding: 20px 20px;
+    background-color: rgb(0 0 0 / 50%);
+    color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+
+}
+
+input[type="text"], input[type="email"], input[name="dip"] 
+{
+    width: 100%;
+    height: 35px;
+    color: #ffffff;
+    background-color: rgb(4 4 4 / 50%);
+    border: 1.5px solid #ddd;
+    border-radius: 75px;
+    padding: 8px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    text-align: auto;
+}
+
+button {
+    font-family: "candara light";
+    margin: 10px 10px 5px;
+    padding: 10px 30px;
+    background-color: rgba(0, 0, 0, .5);
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: cubic-bezier(0.19, 0.81, 0.25, 0.3);
+}
+
+
+button:hover {
+    background-color: #b0cae2;
+}
+
+/* Centering the Button */
+#buttonContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+}
+th,td {
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(0 0 0 / 85%);
+    color: #fff;
+    border: 1px solid #fff;
+}
+th {
+    background-color: rgb(51 66 30 / 83%);
+    color: #fff;
+}
+/* Dropdown Styles */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #658d4d;
+    color: #fff;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.show {
+    display: block;
+}
+
+/* Form Elements */
+label {
+    display: inline-block; /* Change from block to inline-block */
+    margin: 10px 10px 5px;
+    text-shadow: 0.01px 0.1px 0.1px rgb(164, 180, 163);
+    font-weight: bold;
+    color: #ffffff;
+}
+
+input[type="text"],
+input[type="email"],
+input[name="dip"],
+#departmentInput,
+#locationInput {
+    width: calc(100% - 20px); /* Adjust as necessary */
+    /* Maintain other styles */
+    height: 35px;
+    color: #ffffff;
+    background-color: rgb(4 4 4 / 50%);
+    border: 1.5px solid #ddd;
+    border-radius: 75px;
+    padding: 8px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    text-align: auto;
+}
+
+input[type="checkbox" i] element.style {
+    margin: 15px 15px 15px;
+    padding: 23px;
+}

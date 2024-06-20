@@ -1,0 +1,56 @@
+{% extends 'layout.html' %}
+{% block body %}
+
+<h1>Employee Information</h1>
+<div id="formContainer">
+    <div class="form-group">
+        <label for="nameInput">Name</label>
+        <input type="text" id="nameInput" placeholder="Please enter your name"/>
+    </div>
+   
+    <div class="form-group">
+        <label for="emailInput">Email ID</label>
+        <input type="email" id="emailInput" placeholder="Please enter your email" />
+    </div>
+
+    <div class="form-group">
+        <label for="departmentInput">Department</label>
+        <select name="department" id="departmentInput">
+            <option value="">Select Department</option>
+            <option value="Manager">Manager</option>
+            <option value="Account">Account</option>
+            <option value="Human Resources">Human Resources</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="locationInput">Location</label>
+        <select name="location" id="locationInput">
+            <option value="">Select Location</option>
+            <option value="Kolkata">Kolkata</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Bangaluru">Bangaluru</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="intelgic_employee">Is Intelgic Employee:</label>
+        <input type="checkbox" id="intelgic_employee" name="intelgic_employee" value="True">
+    </div>
+
+    <button onclick="addData()">Add</button>
+</div>
+
+<table id="outputTable">
+    <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Department</th>
+        <th>Location</th>
+        <th>Intelgic Employee</th>
+        <th>Action</th>
+    </tr>
+</table>
+
+<!-- <script src="{{ url_for('static', filename='js/scripts.js') }}"></script> -->
+{% endblock %}
